@@ -1,39 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
   <url>
     <loc>https://bonu.co.in/</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- New Games -->
   <url>
     <loc>https://bonu.co.in/new-games.html</loc>
     <lastmod>2026-11-26</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- UPI Withdrawal Guide -->
+  <url>
+    <loc>https://bonu.co.in/bonu-upi-withdrawal-guide/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- APK Download & Install Guide -->
+  <url>
+    <loc>https://bonu.co.in/bonu-apk-download-install-guide/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Beginner Tips -->
+  <url>
+    <loc>https://bonu.co.in/bonu-make-money-beginner-tips/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Login & OTP Fix -->
+  <url>
+    <loc>https://bonu.co.in/bonu-login-otp-problem-fix/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Us -->
   <url>
     <loc>https://bonu.co.in/about-us.html</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Contact Us -->
   <url>
     <loc>https://bonu.co.in/contact-us.html</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Disclaimer -->
   <url>
     <loc>https://bonu.co.in/disclaimer.html</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+
+  <!-- Privacy Policy -->
   <url>
     <loc>https://bonu.co.in/privacy-policy.html</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+
 </urlset>
