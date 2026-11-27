@@ -1,70 +1,133 @@
 <!doctype html>
-<html lang="en-IN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#120505">
-  <title>Information &amp; Policies – bonu.co.in</title>
-  <meta name="description" content="About Us, Contact Us, Disclaimer, and Privacy Policy information for bonu.co.in.">
-  <link rel="icon" type="image/png" sizes="192x192" href="/logo.png">
-  <style>
-    :root{--bg:#120404;--panel:#1f0909;--accent:#fbbf24;--text:#fef2f2;--muted:#d6bcbc;--line:#451212}
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;line-height:1.7}
-    header{position:sticky;top:0;background:#120404f2;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 4%;display:flex;align-items:center;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:22px;font-weight:800;text-decoration:none}
-    .logo{width:38px;height:38px;border-radius:10px;object-fit:contain}
-    nav a{color:var(--accent);text-decoration:none;margin-left:16px;font-weight:700;font-size:14px}
-    main{max-width:860px;margin:auto;padding:30px 16px 70px}
-    h1{color:#fff;font-size:clamp(24px,4vw,36px);margin:0 0 14px}
-    h2{color:var(--accent);font-size:20px;margin:24px 0 8px}
-    p{color:var(--muted)}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0}
-    footer{border-top:1px solid var(--line);padding:24px 14px;text-align:center;color:var(--muted);font-size:14px;background:#0a0202}
-    footer a{color:var(--accent);text-decoration:none;margin:0 8px}
-  </style>
-</head>
-<body>
-<header>
-  <a class="brand" href="/"><img class="logo" src="/logo.png" alt="BONU Logo"><span>BONU</span></a>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/new-games.html">New Games</a>
-    <a href="/about-us.html">About Us</a>
-    <a href="/contact-us.html">Contact Us</a>
-  </nav>
-</header>
-<main>
-  <h1>bonu.co.in – Information &amp; Policies</h1>
+<html lang="en-IN">  
+<head>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <meta name="theme-color" content="#120505">  
 
-  <section class="card" id="about">
-    <h2>About Us</h2>
-    <p><strong>bonu.co.in</strong> provides informational guides, installation walkthroughs, and general overview details for users looking up BONU Game and related Android applications.</p>
-  </section>
+  <!-- Primary SEO Meta Tags -->  
+  <title>About Us – Bonu Game Official Portal</title>  
+  <meta name="title" content="About Us – Bonu Game Official Portal">  
+  <meta name="description" content="Learn more about Bonu Game, our mission to provide secure mobile entertainment, fast UPI cash games, and a trusted gaming experience in India.">  
+  <meta name="robots" content="index, follow">  
+  <link rel="canonical" href="https://bonu.co.in/about-us.html">  
 
-  <section class="card" id="contact">
-    <h2>Contact Us</h2>
-    <p>For questions or support inquiries regarding this website, reach out via email at <a href="mailto:support@bonu.co.in" style="color:var(--accent)">support@bonu.co.in</a>.</p>
-  </section>
+  <!-- Favicons -->  
+  <link rel="icon" type="image/png" sizes="192x192" href="/logo.png">  
+  <link rel="apple-touch-icon" href="/logo.png">  
 
-  <section class="card" id="disclaimer">
-    <h2>Disclaimer</h2>
-    <p>Real-money online games carry financial risk. Users must be <strong>18+</strong> and follow local and state laws applicable in their region.</p>
-  </section>
+  <style>  
+  :root{--bg:#120404;--panel:#1f0909;--accent:#fbbf24;--red:#dc2626;--text:#fef2f2;--muted:#d6bcbc;--line:#451212;--gold:#f59e0b}  
+  *{box-sizing:border-box}  
+  html{scroll-behavior:smooth}  
+  body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.7}  
+  header{position:sticky;top:0;z-index:20;background:#120404f2;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 4%;display:flex;align-items:center;justify-content:space-between}  
+  .brand{display:flex;align-items:center;gap:10px;color:var(--accent);font-size:22px;font-weight:800;text-decoration:none}  
+  .logo{width:42px;height:42px;border-radius:10px;object-fit:contain}  
+  nav a{color:var(--accent);text-decoration:none;margin-left:18px;font-weight:700;font-size:15px;transition:color .2s}  
+  nav a:hover{color:#fff}  
+  .menu{display:none;background:transparent;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:22px;cursor:pointer}  
+  main{max-width:900px;margin:auto;padding:34px 18px 80px}  
+  .eyebrow{display:inline-block;border:1px solid var(--gold);border-radius:30px;padding:6px 14px;color:var(--accent);background:#2b0909;font-size:12px;font-weight:700;letter-spacing:.5px}  
+  h1{font-size:clamp(26px,5vw,40px);line-height:1.2;margin:18px 0 14px;color:#fff;font-weight:900}  
+  h2{font-size:clamp(20px,3.2vw,26px);line-height:1.3;color:var(--accent);margin:30px 0 14px;font-weight:800}  
+  p,li{font-size:16px;color:var(--muted)}  
+  .lead{font-size:18px;color:#fde68a}  
+  ul,ol{padding-left:20px;margin:14px 0}  
+  li{margin-bottom:8px}  
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 20px;margin:20px 0}  
+  
+  .actions{display:flex;justify-content:center;margin:24px 0}  
+  .action{display:flex;align-items:center;justify-content:center;text-decoration:none;padding:15px 32px;border-radius:14px;border:1px solid var(--gold);color:var(--accent);font-weight:800;font-size:16px;background:#240808;transition:transform .2s,box-shadow .2s;text-align:center;max-width:320px;width:100%}  
+  .action:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(251,191,36,0.25)}  
+  .action.primary-bonu{color:#ffffff;background:linear-gradient(110deg,#dc2626,#991b1b);border:1px solid var(--accent)}  
 
-  <section class="card" id="privacy">
-    <h2>Privacy Policy</h2>
-    <p>We respect visitor privacy and only use standard analytics and tag configurations to understand site traffic and improve page performance.</p>
-  </section>
-</main>
-<footer>
-  <div>
-    <a href="/">Home</a>
-    <a href="/new-games.html">New Games</a>
-    <a href="/disclaimer.html">Disclaimer</a>
-    <a href="/privacy-policy.html">Privacy Policy</a>
-  </div>
-  <p>Support: <a href="mailto:support@bonu.co.in">support@bonu.co.in</a></p>
-</footer>
-</body>
+  footer{border-top:1px solid var(--line);padding:30px 14px;text-align:center;color:var(--muted);font-size:14px;background:#0a0202}  
+  footer a{color:var(--accent);text-decoration:none}  
+  footer a:hover{text-decoration:underline}  
+  footer .footer-brand{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--accent);font-size:20px;font-weight:800;margin-bottom:12px}  
+  footer .footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 16px;margin:14px 0}  
+  
+  @media(max-width:650px){  
+    header{padding:10px 10px}  
+    .menu{display:block}  
+    nav{display:none;position:absolute;top:62px;left:0;right:0;background:#1a0505;padding:16px;border-bottom:1px solid var(--line)}  
+    nav.open{display:grid;gap:12px}  
+    nav a{margin:0}  
+    main{padding:14px 8px 50px}  
+    .action{max-width:100%}  
+  }  
+  </style>  
+</head>  
+
+<body>  
+<header>  
+  <a class="brand" href="/" aria-label="Bonu Home">  
+    <img class="logo" src="/logo.png" alt="Bonu Logo" width="42" height="42">  
+    <span>Bonu</span>  
+  </a>  
+  <button class="menu" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>  
+  <nav>  
+    <a href="/">Home</a>  
+    <a href="/#games-preview">Games</a>  
+    <a href="/#features">Features</a>  
+    <a href="/#install">Install Guide</a>  
+    <a href="/#faq">FAQ</a>  
+    <a href="about-us.html">About Us</a>  
+    <a href="contact-us.html">Contact Us</a>  
+  </nav>  
+</header>  
+
+<main>  
+  <span class="eyebrow">WHO WE ARE</span>  
+  <h1>About Bonu Game</h1>  
+  <p class="lead">Welcome to <strong>Bonu Game</strong> (bonu.co.in) – your premier digital destination and trusted download portal for thrilling online real-cash mobile entertainment in India.</p>  
+
+  <div class="actions">  
+    <a class="action primary-bonu" href="https://bonuvip.com?inviteCode=M96JM3N&from=app" target="_blank" rel="sponsored noopener noreferrer">Download Bonu App</a>  
+  </div>  
+
+  <div class="card">  
+    <h2>Our Vision &amp; Mission</h2>  
+    <p>At Bonu, our mission is to deliver a seamless, secure, and fast-paced mobile gaming experience. We strive to provide enthusiastic players with a lightweight, high-performance Android application featuring classic card games, exciting multipliers like Aviator, and immersive slots, all backed by lightning-fast UPI transactions.</p>  
+  </div>  
+
+  <h2>Why Choose Bonu App?</h2>  
+  <ul>  
+    <li><strong>Verified Security:</strong> Our official APK packages are thoroughly tested to ensure safe and secure installation.</li>  
+    <li><strong>Instant UPI Payouts:</strong> Enjoy rapid deposit and withdrawal processing via PhonePe, Google Pay, Paytm, and IMPS bank transfers.</li>  
+    <li><strong>Engaging Game Library:</strong> Access a diverse variety of games including Teen Patti, Rummy, slots, and crash rounds in a single lightweight app.</li>  
+    <li><strong>Dedicated Support:</strong> Our in-house customer help desk is committed to assisting you round the clock with any queries or account support.</li>  
+  </ul>  
+
+  <div class="card">  
+    <h2>Responsible Gaming &amp; Compliance</h2>  
+    <p>We strongly advocate for responsible gaming. Bonu is strictly meant for entertainment purposes for users aged 18 and above. We encourage all players to set personal limits, play responsibly, and review local laws regarding online gaming in their respective states.</p>  
+  </div>  
+
+  <h2>Get in Touch</h2>  
+  <p>Have questions, feedback, or need technical support? Feel free to reach out to our team at <a href="mailto:support@bonu.co.in">support@bonu.co.in</a> or visit our <a href="contact-us.html">Contact Us</a> page.</p>  
+</main>  
+
+<footer>  
+  <div class="footer-brand">  
+    <img class="logo" src="/logo.png" alt="Bonu Logo" width="42" height="42">  
+    <span>Bonu</span>  
+  </div>  
+  <p>bonu.co.in is an independent informational resource and download portal for the Bonu Game Android application.</p>  
+
+  <div class="footer-links">  
+    <a href="/">Home</a>  
+    <a href="/#install">Install Guide</a>  
+    <a href="/#faq">FAQs</a>  
+    <a href="about-us.html">About Us</a>  
+    <a href="contact-us.html">Contact Us</a>  
+    <a href="disclaimer.html">Disclaimer</a>  
+    <a href="privacy-policy.html">Privacy Policy</a>  
+  </div>  
+
+  <p>Support: <a href="mailto:support@bonu.co.in">support@bonu.co.in</a></p>  
+  <p><strong>18+ Legal &amp; Regional Disclaimer:</strong> Real-cash gaming involves financial risk and may be habit-forming. Play responsibly.</p>  
+</footer>  
+</body>  
 </html>
